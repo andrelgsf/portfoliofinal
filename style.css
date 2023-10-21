@@ -1,0 +1,183 @@
+/* Importação da fonte Roboto Slab */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", Verdana, Geneva, Tahoma, sans-serif;
+  color: #333; /* Cor do texto geral */
+  background-color: #000000; /* Cor de fundo do corpo da página */
+}
+
+img#fotoAndre {
+  border-radius: 50px;
+}
+
+.custom-nav {
+  background-color: #333; /* Cor de fundo do menu de navegação */
+  padding: 10px 0; /* Espaçamento interno do menu */
+  text-align: center;
+}
+
+.custom-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.custom-nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s; /* Efeito de transição suave */
+}
+
+.custom-nav a:hover {
+  color: #60acfd; /* Cor ao passar o mouse */
+}
+
+.header-container {
+  background-color: #000000;
+  height: 100vh;
+  width: 100%;
+  background-image: url(""); /* Adicione a URL da imagem de fundo aqui */
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: white;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: white;
+  margin-top: 20px;
+}
+
+.social-media {
+  margin: 1rem;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border: 2px solid white; /* Defina a largura da borda */
+  min-width: 4rem;
+  display: inline-block;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.social-media a:hover {
+  background-color: white;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  width: 600px;
+  height: 600px;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #60acfd;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.card-wrapper {
+  text-align: center;
+  display: inline;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.card li {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.card p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+
+.card h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+
+}
+
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.card li {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+
+.card p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+
